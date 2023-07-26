@@ -1,0 +1,16 @@
+<div class="bg-gray-900 px-3 py-5 rounded-xl">
+  <div class="flex gap-3">
+    <input
+      type="text"
+      class="flex-grow rounded-xl bg-gray-600 text-white font-semibold px-3 py-2"
+      [(ngModel)]="inputName"
+    />
+    <button
+      class="bg-teal-400 text-teal-950 font-semibold rounded-xl px-3 py-2"
+      type="button"
+      (click)="updateName()"
+    >
+      Save name
+    </button>
+  </div>
+</div>
